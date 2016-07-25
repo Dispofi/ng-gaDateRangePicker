@@ -61,8 +61,8 @@ app.directive( 'gaDateRangePicker', [ function() {
             '</div>' +
             '<div class="gadpDatesInputs">' +
             '<form role="form" class="form-inline">'+
-            '<input type="text" class="form-control input-sm" focus-on="dateStart" ng-focus="focusDate(\'start\' , $event )" ng-model="dates.startLabel" ng-blur="dateBlur( \'start\' , dates.startLabel )">-' +
-            '<input type="text" class="form-control input-sm" focus-on="dateEnd" ng-focus="focusDate(\'end\' , $event )" ng-model="dates.endLabel" ng-blur="dateBlur( \'end\' , dates.endLabel )">' +
+            '<input type="text" class="gadpDate form-control input-sm" focus-on="dateStart" ng-focus="focusDate(\'start\' , $event )" ng-model="dates.startLabel" ng-blur="dateBlur( \'start\' , dates.startLabel )">-' +
+            '<input type="text" class="gadpDate form-control input-sm" focus-on="dateEnd" ng-focus="focusDate(\'end\' , $event )" ng-model="dates.endLabel" ng-blur="dateBlur( \'end\' , dates.endLabel )">' +
             '</form>' +
             '</div>' +
             '<div class="gadpButtons">' +
