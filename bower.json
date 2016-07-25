@@ -12,10 +12,10 @@
     "angular": "^1.2.*",
     "moment": "^2.9.*"
   },
-  "homepage": "https://github.com/dispobiz/ng-gaDateRangePicker",
+  "homepage": "https://github.com/sbonnet/ng-gaDateRangePicker",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dispobiz/ng-gaDateRangePicker.git"
+    "url": "https://github.com/sbonnet/ng-gaDateRangePicker.git"
   },
   "authors": [
     { "name": "Stéphane Bonnet", "email": "stephane@sbonnet.com" }
